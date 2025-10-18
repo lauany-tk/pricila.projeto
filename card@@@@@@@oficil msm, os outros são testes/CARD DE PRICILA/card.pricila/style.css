@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanchenjunga:wght@400;500;600;700&family=Silkscreen:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Silkscreen", sans-serif;
+}
+
+body {
+   background-color: black;
+}
+
+.content {
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-main{
+    height: clamp(400px, 450px, 1000px);
+    width: clamp(290px, 290px, 300px);
+    background-color: #4b0a80;
+    border-radius: 20px;
+    transition: transform .3s ease-in;
+    
+}
+.content-main:hover{
+    transform: rotateY(180deg);
+}
+
+.content-title {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4B0A80;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    padding: 0 12px;
+}
+
+.content-title h2 {
+    font-size: 23px;
+    color: #180720;
+}
+
+.content-title img {
+    height: 40px;
+    width: 40px;
+    text-align: end;
+}
+
+.content-mission {
+    background-color: #701970;
+    height: 100px;
+    width: 100%;
+    color: #edfc23;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.content-profile {
+    height: 56%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #ffffff;
+    position: relative;
+}
+
+.profile-section {
+    display: grid;
+    grid-template-columns: 100px 170px;
+}
+
+.img-profile-section {
+    width: 100px;
+}
+
+.description-profile-section {
+    width: 100%;
+    color: #0c2aa1;
+}
+
+.description-profile-section label:nth-child(n+1) {
+    margin-right: 92px;
+}
+
+.description-profile-section label:nth-child(n+2) {
+    margin-right: 76px;
+}
+
+.img-profile-section img {
+    height: 100px;
+}
+
+.description-profile-section input {
+    width: 150px;
+    outline: none;
+    border: none;
+    background-color: #adadad;
+    border-radius: 20px;
+    padding-left: 6px;
+    color: #1f2e6b;
+}
+
+.expirience-profile {
+    width: 100%;
+    color: #1f2e6b;
+}
+
+.experience-descriptio-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+}
+
+.expirience-bar div {
+    height: 10px;
+    width: 100px;
+    background-color: #ffd129;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10px 0 0 10px;
+    position: relative;
+    z-index: 1;
+}
+
+.expirience-bar div span {
+    position: absolute;
+    background-color: #a5a5a5;
+    height: 10px;
+    width: 174px;
+    top: 0%;
+    left: 97%;
+    border-radius: 0 10px 10px 0;
+    z-index: -1;
+}
+
+.unlocked-achievements {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.img-logos img {
+    height: 50px;
+}
+.star {
+    position: absolute;
+    animation: twinkle 2s infinite alternate, float 10s linear infinite;
+    font-size: 40px; /*so as esrelas ficam maiores 8*/
+}
+
+/* Piscar */
+@keyframes twinkle {
+    from { opacity: 0.2; }
+    to { opacity: 1; }
+}
+
+/* Flutuar devagar */
+@keyframes float {
+    from { transform: translateY(0); }
+    to { transform: translateY(-50px); }
+}
+
+/* Posições fixas das estrelas */
+.s1 { top: 10%; left: 20%; animation-duration: 2s, 12s; }
+.s2 { top: 30%; left: 70%; animation-duration: 3s, 15s; }
+.s3 { top: 60%; left: 60%; animation-duration: 1.8s, 10s; }
+.s4 { top: 80%; left: 90%; animation-duration: 2.5s, 14s; }
+.s5 { top: 50%; left: 10%; animation-duration: 2.2s, 13s; }
