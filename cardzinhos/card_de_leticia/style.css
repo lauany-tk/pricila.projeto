@@ -1,0 +1,261 @@
+* {
+    background-color: rgb(128, 155, 83);
+    ;
+}
+
+h1 {
+    font-size: 35px;
+    color: aliceblue;
+    background-color: transparent;
+    position: relative;
+    top: 10px;
+    left: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.fundo1 {
+    width: 300px;
+    height: 570px;
+    margin: auto;
+    background-color: cadetblue;
+    padding: 0 20px 20px 20px;
+    border-radius: 10px;
+    transition: transform 0.6s ease, box-shadow 0.3s ease-in;
+    transform-style: preserve-3d; /* permite rotação 3D dos filhos */
+}
+
+.fundo1:hover{
+    transform: rotateY(180deg);
+    cursor: pointer;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+}
+
+.card {
+    height: 100dvh;
+    display: grid;
+    place-items: center;
+    perspective: 1000px; /* adiciona profundidade para a rotação 3D */
+}
+
+.fundo2 {
+    width: 275px;
+    height: 450px;
+    margin: auto;
+    background-color: rgb(59, 125, 128);
+    padding: 0 20px 20px 20px;
+    border-radius: 5px;
+    position: relative;
+    top: 0px;
+    right: 7px;
+}
+
+#mss {
+    font-size: 25px;
+    position: relative;
+    top: 10px;
+    margin-bottom: 0;
+    background-color: transparent;
+    color: aliceblue;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#lvup {
+    margin-top: 0;
+    font-size: 40px;
+    color: aliceblue;
+    background-color: transparent;
+    position: relative;
+    padding-bottom: 40px;
+    left: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.fundo3 {
+    width: 275px;
+    height: 385px;
+    margin: auto;
+    background-color: aliceblue;
+    padding: 0 20px 20px 20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    position: relative;
+    bottom: 40px;
+    right: 20px;
+}
+
+#lzn {
+    width: 95px;
+    height: 155px;
+    margin: 0;
+    background-color: rgb(59, 125, 128);
+    padding: 5px;
+    border-radius: 10px;
+    position: relative;
+    top: 10px;
+    right: 8px;
+    image-rendering: pixelated;
+}
+
+h4 {
+    color: rgb(59, 125, 128);
+    background-color: transparent;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    bottom: 175px;
+    left: 110px;
+}
+
+p {
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    bottom: 185px;
+    left: 110px;
+    background-color: rgb(59, 125, 128);
+    padding: 5px 5px 5px 10px;
+    border-radius: 13px;
+    width: 160px;
+}
+
+#xp {
+    font-size: 15px;
+    color: rgb(59, 125, 128);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    background-color: transparent;
+    bottom: 185px;
+    left: 0px;
+}
+
+#barrinha1 {
+    font-size: 20px;
+    color: rgb(59, 125, 128);
+    position: relative;
+    bottom: 200px;
+    left: 0px;
+    border-radius: 20px;
+    width: 250px;
+    height: 20px;
+}
+
+#barrinha2 {
+    font-size: 20px;
+    color: darkgray;
+    position: relative;
+    bottom: 250px;
+    left: 120px;
+    border-radius: 0 20px 20px 0;
+    width: 145px;
+    height: 20px;
+    background-color: darkgray;
+}
+
+#xp2 {
+    font-size: 15px;
+    color: rgb(59, 125, 128);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: transparent;
+    position: relative;
+    bottom: 270px;
+    left: 200px;
+}
+
+#cqds {
+    font-size: 20px;
+    color: rgb(59, 125, 128);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: transparent;
+    position: relative;
+    bottom: 290px;
+    left: 0px;
+    text-align: center;
+}
+
+.conquistasft {
+    position: relative;
+    bottom: 315px;
+    left: 32px;
+    background-color: transparent;
+}
+
+#gusu {
+    width: 65px;
+}
+
+#wangxian {
+    width: 60px;
+    position: relative;
+    left: 10px;
+}
+
+#cerveja {
+    width: 85px;
+}
+
+.star {
+    position: absolute;
+    animation: twinkle 2s infinite alternate, float 10s linear infinite;
+    color: white;
+    background-color: transparent;
+    font-size: 40px;
+    /*so as esrelas ficam maiores 8*/
+}
+
+/* Piscar */
+@keyframes twinkle {
+    from {
+        opacity: 0.2;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* Flutuar devagar */
+@keyframes float {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(-50px);
+    }
+}
+
+.s1 {
+    top: 10%;
+    left: 20%;
+    animation-duration: 2s, 12s;
+}
+
+.s2 {
+    top: 30%;
+    left: 70%;
+    animation-duration: 3s, 15s;
+}
+
+.s3 {
+    top: 60%;
+    left: 62%;
+    animation-duration: 1.8s, 10s;
+}
+
+.s4 {
+    top: 80%;
+    left: 30%;
+    animation-duration: 2.5s, 14s;
+}
+
+.s5 {
+    top: 50%;
+    left: 10%;
+    animation-duration: 2.2s, 13s;
+}
+
+.s6 {
+    top: 90%;
+    left: 60%;
+    animation-duration: 2.2s, 13s;
+}
