@@ -32,7 +32,7 @@ body {
 .container .char1 {
     position: absolute;
     top: 84%;
-    left: calc(36% - 10px);
+    left: calc(35% - 10px);
     width: 10%;
     animation: moveUp 2s ease-in;
     transform: translateY(-160px);
@@ -40,7 +40,7 @@ body {
 
 .container .char2 {
     position: absolute;
-    top: 86%;
+    top: 88%;
     left: calc(35% - 10px);
     width: 4%;
     height: 10%;
@@ -51,7 +51,7 @@ body {
 .container .char3 {
     position: absolute;
     top: 88%;
-    left: calc(43% - 10px);
+    left: calc(42% - 20px);
     width: 4%;
     height: 10%;
     animation: moveUp forwards 2s ease-in;
