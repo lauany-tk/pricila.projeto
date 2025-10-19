@@ -1,0 +1,299 @@
+body {
+    background-color: darkolivegreen;
+    width: 550px;
+    height: 600px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.fundo {
+    background-color: rgb(99, 112, 78);
+    width: 390px;
+    height: 700px;
+    margin: auto;
+    border-radius: 10px;
+    position: relativ;
+    top: 50px;
+    transition: all 0.5s ease;
+}
+
+.fundo:hover {
+    transform: rotateY(180deg);
+    box-shadow: 0 0 15px 5px darkolivegreen;
+    transition: all 0.5s ease;
+}
+
+.semifundo {
+    background-color: rgb(109, 134, 67);
+    width: 350px;
+    height: 500px;
+    margin: auto;
+    border-radius: 10px;
+    position: relative;
+    top: 80px;
+}
+
+.insemifundo {
+    background-color: rgb(221, 240, 209);
+    width: 350px;
+    height: 500px;
+    margin: auto;
+    border-radius: 0px 0px 10px 10px;
+    position: relative;
+    top: 20px;
+    r: 5px solid
+}
+
+#play {
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: aliceblue;
+    text-align: center;
+    position: relative;
+    bottom: 60px;
+}
+
+#missao {
+    font-size: 100xp;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: aliceblue;
+    text-align: center;
+    position: relative;
+    bottom: 80px;
+}
+
+#levelup {
+    font-size: 50xp;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: aliceblue;
+    text-align: center;
+    position: relative;
+    bottom: 90px;
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+
+p {
+    color: aliceblue;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    left: 170px;
+    bottom: 400px;
+    background-color: darkolivegreen;
+    border-radius: 5px;
+    width: 150px;
+    padding: 0px 0px 0px 7px;
+
+}
+
+#lala {
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: darkolivegreen;
+    position: relative;
+    left: 160px;
+    bottom: 400px;
+}
+
+#lulu {
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: darkolivegreen;
+    position: relative;
+    left: 160px;
+    bottom: 400px;
+}
+
+#foto {
+    max-width: 140px;
+    border-radius: 11px;
+    position: relative;
+    left: 5px;
+    bottom: 170px;
+    border: 2px solid darkolivegreen;
+
+}
+
+#xp {
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: darkolivegreen;
+    position: relative;
+    left: 20px;
+    bottom: 230px;
+}
+
+#fullstack {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: darkolivegreen;
+    position: relative;
+    left: 30px;
+    bottom: 270px;
+}
+
+#nums {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: darkolivegreen;
+    position: relative;
+    left: 230px;
+    bottom: 200px;
+}
+
+.bara {
+    display: flex;
+    position: absolute;
+    top: 665px;
+    right: 180px;
+}
+
+#b2 {
+    background-color: rgb(182, 181, 181);
+    border-radius: 0 10px 10px 0;
+    height: 30px;
+    width: 160px;
+    z-index: 1;
+}
+
+#b1 {
+    background-color: darkolivegreen;
+    border-radius: 10px 0px 0px 10px;
+    height: 30px;
+    width: 160px;
+    z-index: 2;
+}
+
+#xp {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: darkolivegreen;
+    position: relative;
+    bottom: 360px;
+    left: 20px;
+}
+
+#fullstack {
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: darkolivegreen;
+    position: relative;
+    bottom: 340px;
+}
+
+#nums {
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: darkolivegreen;
+    position: relative;
+    bottom: 375px;
+    left: 250px;
+}
+
+.conq {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkolivegreen;
+    position: relative;
+    bottom: 370px;
+}
+
+#imgsapo {
+    max-width: 100px;
+    border-radius: 11px;
+    position: relative;
+    bottom: 90px;
+    left: 295px;
+    border: 2px solid darkolivegreen;
+}
+
+#imgestrela {
+    max-width: 100px;
+    border-radius: 11px;
+    position: relative;
+    bottom: 90px;
+    left: 300px;
+    border: 2px solid darkolivegreen;
+}
+
+#imgborboleta {
+    max-width: 105px;
+    border-radius: 11px;
+    position: relative;
+    bottom: 90px;
+    left: 305px;
+    border: 2px solid darkolivegreen;
+}
+
+.star {
+    position: absolute;
+    animation: twinkle 2s infinite alternate, float 10s linear infinite;
+    font-size: 40px;
+    background-color: transparent;
+}
+
+.c-image {
+    position: relative;
+    top: 0%;
+    left: -82%;
+}
+
+/* Piscar */
+@keyframes twinkle {
+    from {
+        opacity: 0.2;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* Flutuar devagar */
+@keyframes float {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(-50px);
+    }
+}
+
+/* Posições fixas das estrelas */
+.s1 {
+    top: 10%;
+    left: 20%;
+    animation-duration: 2s, 12s;
+}
+
+.s2 {
+    top: 30%;
+    left: 70%;
+    animation-duration: 3s, 15s;
+}
+
+.s3 {
+    top: 70%;
+    left: 30%;
+    animation-duration: 1.8s, 10s;
+}
+
+.s4 {
+    top: 80%;
+    left: 90%;
+    animation-duration: 2.5s, 14s;
+}
+
+.s5 {
+    top: 50%;
+    left: 10%;
+    animation-duration: 2.2s, 13s;
+}
+
+.s6 {
+    top: 10%;
+    left: 90%;
+    animation-duration: 3s, 14s;
+}
