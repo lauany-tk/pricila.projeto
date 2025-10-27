@@ -1,0 +1,50 @@
+body{
+    /* background-image: linear-gradient(to right, #000, #fff); */
+    background-color: #000;
+    color: #fff;
+    animation: 2s gradientAnimation linear infinite;
+    background-size: 400% 400%;
+    font-size: 32px;
+    /* background-position: 0% 0%; */
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.m_section {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 900px;
+    grid-template-rows: 900px;
+    justify-content: end;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.text {
+    width: 100%;
+}
+
+.content{
+    margin-left: 30px;
+    /* background-image: url"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 70%;
+    width: calc(30% + 6px);
+}
+
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+p span{
+    color: gold;
+    font-weight: 1000;
+}

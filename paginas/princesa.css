@@ -1,0 +1,42 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-size: 39px;
+}
+
+.container {
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    height: 100%;
+    width: 48%;
+    display: flex;
+    align-items: end;
+    justify-content: start;
+    position: absolute;
+    top: 2%;
+}
+
+.m_video {
+    height: 100%;
+    width: 100%;
+}
+
+.m_section {
+    position: absolute;
+    display: flex;
+    height: 100%;
+    width: 50%;
+    align-items: center;
+    justify-content: end;
+    left: 50%;
+    top: 9%;
+}
+
+.m_section p {
+    height: 100%;
+    width: 100%;
+}

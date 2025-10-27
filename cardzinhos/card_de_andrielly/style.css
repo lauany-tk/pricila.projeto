@@ -1,4 +1,8 @@
-body {
+.tudo {
+    /* margin-top: 20px; */
+    transform: scale(0.8,0.8);
+}
+body{
     background-color: darkolivegreen;
     width: 550px;
     height: 600px;

@@ -1,6 +1,5 @@
 let segundo = 1000;
 
-
 window.addEventListener('keydown', (e) => {
     e.preventDefault();
     setTimeout(() => {
