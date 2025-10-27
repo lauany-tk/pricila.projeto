@@ -16,6 +16,6 @@ btn.addEventListener("click", () => {
 
 startBtn.addEventListener("click", () => {
     setTimeout(() => {
-        window.location.href = 'mapinha/index.html';
+        window.location.href = './text/mapinha/index.html';
     }, 1 * s);
 });
